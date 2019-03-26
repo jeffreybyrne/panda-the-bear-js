@@ -38,3 +38,8 @@ highlights.forEach(function(element) {element.style.color = 'blue'})
 header = document.querySelector('h1')
 <h1 class=​"highlight" style=​"color:​ blue;​">​Panda The Bear​</h1>​
 header.style.fontFamily = 'monospace';
+
+8. Find a way to select the round icons in the sidebar and then change their colour.
+
+circles = document.querySelectorAll('.action-icon-bg');
+circles.forEach(function(element) {element.style.backgroundColor = 'brown'})
