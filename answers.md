@@ -49,3 +49,9 @@ circles.forEach(function(element) {element.style.backgroundColor = 'brown'})
 nameBox = document.querySelector('.contact-info');
 <input type=​"text" name=​"name" class=​"contact-info" id=​"name" placeholder=​"Name">​
 nameBox.placeholder = 'identify yourself'
+
+10. Change the placeholder attribute of the message field to "state your business".
+
+messageBox = document.querySelector('#message')
+<textarea name=​"message" id=​"message" placeholder=​"Message">​</textarea>​
+messageBox.placeholder = 'state your business'
