@@ -21,3 +21,9 @@ mainHeader.innerText = 'Jeff Byrne'
 empHeader = document.querySelector('#employment h3');
 <h3 class=​"info-title">​<i class=​"icon-suitcase">​::before​</i>​" &nbsp; Employment"</h3>​
 empHeader.innerText = "Unemployment"
+
+5. Change the colour of the body.
+
+body = document.querySelector('body')
+<body>​…​</body>​
+body.style.color = 'red'
