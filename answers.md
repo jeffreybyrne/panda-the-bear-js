@@ -116,3 +116,13 @@ for (var i = 0; i < 10; i++) {
   portfolio.appendChild(newPika);
 }
 <img src=​"images/​pikachu-drawing.jpg" alt=​"Pikachu" title=​"Pikachu">​
+
+Let’s add a message about when the page was last updated. We'll do this by appending a new <li> element to the <ul> in the sidebar (you might need to refresh the page to bring back the list items that we emptied out earlier).
+
+ourUl = document.querySelector('.bio-info')
+<ul class=​"bio-info">​…​</ul>​
+newLi = document.createElement('li')
+<li>​</li>​
+newLi.innerText = "Last updated: " + Date()
+ourUl.appendChild(newLi)
+<li>​Tue Mar 26 2019 15:26:35 GMT-0400 (Eastern Daylight Time)​</li>​
