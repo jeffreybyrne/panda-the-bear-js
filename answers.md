@@ -15,3 +15,9 @@ skyImage.src = 'http://zoranmarinovic.com/wp-content/gallery/under-dark-oil-clou
 mainHeader = document.body.querySelector('h1')
 <h1 class=​"highlight">​Panda The Bear​</h1>​
 mainHeader.innerText = 'Jeff Byrne'
+
+4. Select the heading that says "Employment" and change it to something else. (hint: use a descendant selector)
+
+empHeader = document.querySelector('#employment h3');
+<h3 class=​"info-title">​<i class=​"icon-suitcase">​::before​</i>​" &nbsp; Employment"</h3>​
+empHeader.innerText = "Unemployment"
