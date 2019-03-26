@@ -97,3 +97,14 @@ timeTravelParent = timeTravel.parentNode
 <div>​…​</div>​
 timeTravelParent.removeChild(timeTravel)
 <div class=​"bar-default">​…​</div>​
+
+That drawing of Pikachu is really cute. Let’s duplicate it using cloneNode() and insert it at the bottom of the .portfolio-container using insertAdjacentHTML() or appendChild().
+
+pika = document.querySelector('#right-image > img')
+<img src=​"images/​pikachu-drawing.jpg" alt=​"Pikachu" title=​"Pikachu">​
+pikanew = pika.cloneNode(true)
+<img src=​"images/​pikachu-drawing.jpg" alt=​"Pikachu" title=​"Pikachu">​
+portfolio = document.querySelector('.portfolio-container')
+<div class=​"portfolio-container">​…​</div>​
+portfolio.appendChild(pikanew)
+<img src=​"images/​pikachu-drawing.jpg" alt=​"Pikachu" title=​"Pikachu">​
