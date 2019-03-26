@@ -85,3 +85,15 @@ parentObj.removeChild(childObjs[1])
 <li class=​"bio-info-item">​…​</li>​
 parentObj.removeChild(childObjs[2])
 <li class=​"bio-info-item">​…​</li>​
+
+
+PART 2
+
+Panda the Bear is lying about their skills! Take the "time travel" skill off the page to satisfy your personal sense of justice. Use your googling and docs-skimming skillz to find a function that will allow you to remove elements from the DOM. (hint: there are multiple ways of doing this, but parentNode might be useful when it comes to selecting the right element)
+
+timeTravel = document.querySelectorAll('.bar-default')[2]
+<div class=​"bar-default">​…​</div>​
+timeTravelParent = timeTravel.parentNode
+<div>​…​</div>​
+timeTravelParent.removeChild(timeTravel)
+<div class=​"bar-default">​…​</div>​
