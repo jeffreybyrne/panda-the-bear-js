@@ -9,3 +9,9 @@ profilePic.src = 'https://s3.amazonaws.com/pix.iemoji.com/images/emoji/apple/ios
 skyImage = document.querySelectorAll('img')[1]
 <img src=​"images/​clouds-man.jpg" alt=​"Man Walking on Ice" title=​"Man Walking on Ice">​
 skyImage.src = 'http://zoranmarinovic.com/wp-content/gallery/under-dark-oil-cloud-2/thumbs/thumbs_Under-Dark-Oil-Cloud-2-49.jpg'
+
+3. Select the heading that says "Panda the Bear" and change it to your own name.
+
+mainHeader = document.body.querySelector('h1')
+<h1 class=​"highlight">​Panda The Bear​</h1>​
+mainHeader.innerText = 'Jeff Byrne'
