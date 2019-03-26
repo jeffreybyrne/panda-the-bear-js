@@ -3,3 +3,9 @@
 profilePic = document.querySelector('.profile-image');
 <img src=​"images/​self-portrait-grassbg.jpg" alt=​"Self Portrait" title=​"Self Portrait" class=​"profile-image">​
 profilePic.src = 'https://s3.amazonaws.com/pix.iemoji.com/images/emoji/apple/ios-12/256/panda-face.png'
+
+2. Use the same approach to select the element that contains the photo of the sky and change the src attribute to another picture URL of your choosing.
+
+skyImage = document.querySelectorAll('img')[1]
+<img src=​"images/​clouds-man.jpg" alt=​"Man Walking on Ice" title=​"Man Walking on Ice">​
+skyImage.src = 'http://zoranmarinovic.com/wp-content/gallery/under-dark-oil-cloud-2/thumbs/thumbs_Under-Dark-Oil-Cloud-2-49.jpg'
