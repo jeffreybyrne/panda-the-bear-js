@@ -65,3 +65,9 @@ nameBox.value = 'your nemesis'
 emailBox = document.querySelector('#email')
 <input type=​"email" name=​"email" class=​"contact-info" id=​"email" placeholder=​"Email">​
 emailBox.value = 'koalathebear@gmail.com'
+
+13. Change the value of the submit button on the contact form to "En garde!".
+
+submitButton = document.querySelector('#submit')
+<input type=​"submit" name=​"submit" id=​"submit" value=​"Submit">​
+submitButton.value = "En garde!"
