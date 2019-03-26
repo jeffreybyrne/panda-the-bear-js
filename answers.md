@@ -43,3 +43,9 @@ header.style.fontFamily = 'monospace';
 
 circles = document.querySelectorAll('.action-icon-bg');
 circles.forEach(function(element) {element.style.backgroundColor = 'brown'})
+
+9. Scroll down to the contact form. Change the placeholder attribute of the name field to "identify yourself".
+
+nameBox = document.querySelector('.contact-info');
+<input type=​"text" name=​"name" class=​"contact-info" id=​"name" placeholder=​"Name">​
+nameBox.placeholder = 'identify yourself'
