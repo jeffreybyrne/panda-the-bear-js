@@ -32,3 +32,9 @@ body.style.color = 'red'
 
 highlights = document.querySelectorAll('.highlight')
 highlights.forEach(function(element) {element.style.color = 'blue'})
+
+7. Change the font family of the h1 to 'monospace'.
+
+header = document.querySelector('h1')
+<h1 class=​"highlight" style=​"color:​ blue;​">​Panda The Bear​</h1>​
+header.style.fontFamily = 'monospace';
