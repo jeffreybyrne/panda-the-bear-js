@@ -121,8 +121,26 @@ Let’s add a message about when the page was last updated. We'll do this by app
 
 ourUl = document.querySelector('.bio-info')
 <ul class=​"bio-info">​…​</ul>​
-newLi = document.createElement('li')
+newLi = document.createElement('li');
 <li>​</li>​
-newLi.innerText = "Last updated: " + Date()
-ourUl.appendChild(newLi)
-<li>​Tue Mar 26 2019 15:26:35 GMT-0400 (Eastern Daylight Time)​</li>​
+lSpan = document.createElement('span');
+<span>​</span>​
+rSpan = document.createElement('span');
+<span>​</span>​
+textNode = document.createTextNode('Last updated on');
+"Last updated on"
+textNode2 = document.createTextNode(Date());
+"Tue Mar 26 2019 15:33:18 GMT-0400 (Eastern Daylight Time)"
+lSpan.appendChild(textNode);
+"Last updated on:"
+rSpan.appendChild(textNode2);
+"Tue Mar 26 2019 15:33:18 GMT-0400 (Eastern Daylight Time)"
+newLi.appendChild(lSpan);
+<span>​Last updated on:​</span>​
+newLi.appendChild(rSpan);
+<span>​Tue Mar 26 2019 15:33:18 GMT-0400 (Eastern Daylight Time)​</span>​
+newLi.className = "bio-info-item"
+lSpan.className = "bio-info-title";
+rSpan.className = 'bio-info-value bio-info-name'
+ourUl.appendChild(newLi);
+<li class=​"bio-info-item">​<span class=​"bio-info-title">​Last updated on​</span>​<span>​Tue Mar 26 2019 15:33:18 GMT-0400 (Eastern Daylight Time)​</span>​</li>​
