@@ -108,3 +108,11 @@ portfolio = document.querySelector('.portfolio-container')
 <div class=​"portfolio-container">​…​</div>​
 portfolio.appendChild(pikanew)
 <img src=​"images/​pikachu-drawing.jpg" alt=​"Pikachu" title=​"Pikachu">​
+
+Wow, that was so satisfying I think we should do it 10 more times. Use a for loop to help you do this.
+
+for (var i = 0; i < 10; i++) {
+  newPika = pika.cloneNode(true);
+  portfolio.appendChild(newPika);
+}
+<img src=​"images/​pikachu-drawing.jpg" alt=​"Pikachu" title=​"Pikachu">​
