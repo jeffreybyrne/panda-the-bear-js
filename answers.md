@@ -55,3 +55,7 @@ nameBox.placeholder = 'identify yourself'
 messageBox = document.querySelector('#message')
 <textarea name=​"message" id=​"message" placeholder=​"Message">​</textarea>​
 messageBox.placeholder = 'state your business'
+
+11. Give the name field a "value" attribute of "your nemesis".
+
+nameBox.value = 'your nemesis'
