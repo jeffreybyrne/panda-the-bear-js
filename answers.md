@@ -59,3 +59,9 @@ messageBox.placeholder = 'state your business'
 11. Give the name field a "value" attribute of "your nemesis".
 
 nameBox.value = 'your nemesis'
+
+12. Change the value attribute of the email field to "koalathebear@gmail.com".
+
+emailBox = document.querySelector('#email')
+<input type=​"email" name=​"email" class=​"contact-info" id=​"email" placeholder=​"Email">​
+emailBox.value = 'koalathebear@gmail.com'
