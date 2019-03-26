@@ -27,3 +27,8 @@ empHeader.innerText = "Unemployment"
 body = document.querySelector('body')
 <body>​…​</body>​
 body.style.color = 'red'
+
+6. Change the colour of each element using the highlight class. Use a for loop to do this.
+
+highlights = document.querySelectorAll('.highlight')
+highlights.forEach(function(element) {element.style.color = 'blue'})
