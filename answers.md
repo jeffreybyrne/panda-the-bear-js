@@ -71,3 +71,7 @@ emailBox.value = 'koalathebear@gmail.com'
 submitButton = document.querySelector('#submit')
 <input type=​"submit" name=​"submit" id=​"submit" value=​"Submit">​
 submitButton.value = "En garde!"
+
+14. We should stop Koala from sending an email to Panda that they might regret! Find a way to disable the submit button (hint: familiarize yourself with the disabled attribute).
+
+submitButton.disabled = true
